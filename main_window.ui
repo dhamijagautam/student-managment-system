@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main_sms</class>
+ <widget class="QMainWindow" name="main_sms">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Student Management System</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAdd_data">
+    <property name="title">
+     <string>Add data</string>
+    </property>
+    <addaction name="actionAdd_stream"/>
+    <addaction name="actionAdd_student"/>
+   </widget>
+   <widget class="QMenu" name="menuReports">
+    <property name="title">
+     <string>Reports</string>
+    </property>
+    <addaction name="actionsearch_student_by_name"/>
+    <addaction name="actionSearch_student_by_roll_no"/>
+    <addaction name="actionSearch_student_by_streeam"/>
+   </widget>
+   <addaction name="menuAdd_data"/>
+   <addaction name="menuReports"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAdd_stream">
+   <property name="text">
+    <string>Add stream</string>
+   </property>
+  </action>
+  <action name="actionAdd_student">
+   <property name="text">
+    <string>Add student</string>
+   </property>
+  </action>
+  <action name="actionsearch_student_by_name">
+   <property name="text">
+    <string>Search student by name </string>
+   </property>
+  </action>
+  <action name="actionSearch_student_by_roll_no">
+   <property name="text">
+    <string>Search student by roll no</string>
+   </property>
+  </action>
+  <action name="actionSearch_student_by_streeam">
+   <property name="text">
+    <string>Search student by streeam</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
