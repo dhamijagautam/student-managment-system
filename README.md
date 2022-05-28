@@ -1,2 +1,2 @@
-# student-managment-system
-this is student made system using python
+# Student Managment System
+This is Student Management System made using Python.
